@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    border: 1px solid gray;
+}
+.footer__count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+}
+.footer__btns {
+
+}
+.footer__btns-all {
+    font-size: .7rem;
+
+}
+.footer__btns-activie {
+    font-size: .7rem;
+
+}
+.footer__btns-completed {
+    font-size: .7rem;
+
+}
+.footer__btn-clear {
+    font-size: .7rem;
+
+}
+.footer button {
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+.footer__btns button {
+    padding: .2rem;
+    pointer-events: none;
+}

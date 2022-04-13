@@ -1,0 +1,23 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    padding: .5rem;
+    border: 1px solid gray;
+    margin-bottom: .3rem;
+}
+.todo-item__item-checkbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.todo-item__checkbox {
+    margin-right: .5rem;
+}
+.todo-item__text {
+    display: block;
+    flex: 1 1 auto;
+}
+.todo-item__delete {
+    padding: 0 .2rem;
+}
